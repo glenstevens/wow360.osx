@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99F7451C1511436C0038C1BD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7451B1511436C0038C1BD /* Cocoa.framework */; };
+		99F745261511436C0038C1BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99F745241511436C0038C1BD /* InfoPlist.strings */; };
+		99F745281511436C0038C1BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F745271511436C0038C1BD /* main.m */; };
+		99F7452C1511436C0038C1BD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 99F7452A1511436C0038C1BD /* Credits.rtf */; };
+		99F7452F1511436C0038C1BD /* WoW360AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F7452E1511436C0038C1BD /* WoW360AppDelegate.m */; };
+		99F745321511436C0038C1BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F745301511436C0038C1BD /* MainMenu.xib */; };
+		99F745351511436C0038C1BD /* WoW360.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99F745331511436C0038C1BD /* WoW360.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99F745171511436C0038C1BD /* WoW360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoW360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F7451B1511436C0038C1BD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		99F7451E1511436C0038C1BD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		99F7451F1511436C0038C1BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		99F745201511436C0038C1BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99F745231511436C0038C1BD /* WoW360-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WoW360-Info.plist"; sourceTree = "<group>"; };
+		99F745251511436C0038C1BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99F745271511436C0038C1BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99F745291511436C0038C1BD /* WoW360-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WoW360-Prefix.pch"; sourceTree = "<group>"; };
+		99F7452B1511436C0038C1BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		99F7452D1511436C0038C1BD /* WoW360AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WoW360AppDelegate.h; sourceTree = "<group>"; };
+		99F7452E1511436C0038C1BD /* WoW360AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoW360AppDelegate.m; sourceTree = "<group>"; };
+		99F745311511436C0038C1BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		99F745341511436C0038C1BD /* WoW360.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WoW360.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F745141511436C0038C1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F7451C1511436C0038C1BD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99F7450C1511436C0038C1BD = {
+			isa = PBXGroup;
+			children = (
+				99F745211511436C0038C1BD /* WoW360 */,
+				99F7451A1511436C0038C1BD /* Frameworks */,
+				99F745181511436C0038C1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99F745181511436C0038C1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F745171511436C0038C1BD /* WoW360.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F7451A1511436C0038C1BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99F7451B1511436C0038C1BD /* Cocoa.framework */,
+				99F7451D1511436C0038C1BD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99F7451D1511436C0038C1BD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99F7451E1511436C0038C1BD /* AppKit.framework */,
+				99F7451F1511436C0038C1BD /* CoreData.framework */,
+				99F745201511436C0038C1BD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		99F745211511436C0038C1BD /* WoW360 */ = {
+			isa = PBXGroup;
+			children = (
+				99F7452D1511436C0038C1BD /* WoW360AppDelegate.h */,
+				99F7452E1511436C0038C1BD /* WoW360AppDelegate.m */,
+				99F745301511436C0038C1BD /* MainMenu.xib */,
+				99F745331511436C0038C1BD /* WoW360.xcdatamodeld */,
+				99F745221511436C0038C1BD /* Supporting Files */,
+			);
+			path = WoW360;
+			sourceTree = "<group>";
+		};
+		99F745221511436C0038C1BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99F745231511436C0038C1BD /* WoW360-Info.plist */,
+				99F745241511436C0038C1BD /* InfoPlist.strings */,
+				99F745271511436C0038C1BD /* main.m */,
+				99F745291511436C0038C1BD /* WoW360-Prefix.pch */,
+				99F7452A1511436C0038C1BD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F745161511436C0038C1BD /* WoW360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F745381511436C0038C1BD /* Build configuration list for PBXNativeTarget "WoW360" */;
+			buildPhases = (
+				99F745131511436C0038C1BD /* Sources */,
+				99F745141511436C0038C1BD /* Frameworks */,
+				99F745151511436C0038C1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoW360;
+			productName = WoW360;
+			productReference = 99F745171511436C0038C1BD /* WoW360.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F7450E1511436C0038C1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "InterCall Inc.";
+			};
+			buildConfigurationList = 99F745111511436C0038C1BD /* Build configuration list for PBXProject "WoW360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99F7450C1511436C0038C1BD;
+			productRefGroup = 99F745181511436C0038C1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F745161511436C0038C1BD /* WoW360 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F745151511436C0038C1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F745261511436C0038C1BD /* InfoPlist.strings in Resources */,
+				99F7452C1511436C0038C1BD /* Credits.rtf in Resources */,
+				99F745321511436C0038C1BD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F745131511436C0038C1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F745281511436C0038C1BD /* main.m in Sources */,
+				99F7452F1511436C0038C1BD /* WoW360AppDelegate.m in Sources */,
+				99F745351511436C0038C1BD /* WoW360.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99F745241511436C0038C1BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F745251511436C0038C1BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99F7452A1511436C0038C1BD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F7452B1511436C0038C1BD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		99F745301511436C0038C1BD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99F745311511436C0038C1BD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99F745361511436C0038C1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99F745371511436C0038C1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99F745391511436C0038C1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WoW360/WoW360-Prefix.pch";
+				INFOPLIST_FILE = "WoW360/WoW360-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99F7453A1511436C0038C1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WoW360/WoW360-Prefix.pch";
+				INFOPLIST_FILE = "WoW360/WoW360-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F745111511436C0038C1BD /* Build configuration list for PBXProject "WoW360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F745361511436C0038C1BD /* Debug */,
+				99F745371511436C0038C1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F745381511436C0038C1BD /* Build configuration list for PBXNativeTarget "WoW360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F745391511436C0038C1BD /* Debug */,
+				99F7453A1511436C0038C1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99F745331511436C0038C1BD /* WoW360.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99F745341511436C0038C1BD /* WoW360.xcdatamodel */,
+			);
+			currentVersion = 99F745341511436C0038C1BD /* WoW360.xcdatamodel */;
+			path = WoW360.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99F7450E1511436C0038C1BD /* Project object */;
+}
